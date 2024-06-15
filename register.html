@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGame Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input{
+            font-family: 경기천년제목;
+        }
+        form{
+            display: flex;
+            flex: 1 1;
+            flex-direction: column;   
+        }
+        form *{
+            margin: 2px;
+        }
+        #comments{
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contents">
+        <header>
+    
+        </header>
+    
+        <div class="mainLogo">
+            <img src="image/logo.png">
+        </div>
+        <form action="register.php" method="post">
+            <label for="username">ID:</label>
+            <input type="text" id="username" name="ID" required>
+            <br>
+            <label for="password">비밀번호:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label class="bigTextBox" for="comments">자기 소개</label>
+            <input type="text" id="comments" name="comments">
+            <br>
+            <!-- <label for="avater">프로필 사진 URL</label>
+            <input type="text" id="avater" name="avater">
+            <br> -->
+            <input class="shapedButton" type="submit" value="Register">
+        </form>
+    
+
+    
+        <section>
+    
+        </section>
+    
+        <footer>
+            <p> Some important messeges go here.</p>
+        </footer>
+
+    </div>
+</body>
+</html>

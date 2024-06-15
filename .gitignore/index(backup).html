@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGame Archive</title>
+
+    <style>
+        body{
+            font-family: 경기천년제목, 'Times New Roman', Times, serif;
+            padding: 0;
+            margin: 0;
+            /* background-image: url(image/BG.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;  */
+            
+        }
+        body::after{
+            z-index:-1;
+            opacity: 0.3;
+        }
+        .contents{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 4rem 0;
+            flex: 1 1;
+            flex-direction: column;
+            position: relative;
+        }
+        .mainLogo img{
+            max-width: 700px;
+        }
+        .shapedButton{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            outline: 0px;
+            border: 0px;
+            margin: 0px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 6px 8px;
+            vertical-align: middle;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 0.875rem;
+            line-height: 1.75;
+            min-width: 64px;
+            background-color: rgb(161, 225, 251);
+            transform: skewX(-10deg);
+            /* position: relative; */
+            box-shadow: rgb(215, 219, 223) 0px 2px 1px;
+            border-radius: 0.3em;
+            box-sizing: content-box;
+            color: rgb(53, 72, 98);
+        }
+
+        .shapedButton:hover{
+            background-color:rgb(167, 255, 255);
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 800px;
+        }
+
+        .navCard{
+            margin: 1rem;
+            padding: 1.5rem;
+            text-align: left;
+            color: inherit;
+            text-decoration: none;
+            border: 2px solid #d6d5d5;
+            border-radius: 10px;
+            width: 300px;
+            height: 150px;
+        }
+
+        .navCard:hover{
+            background-color:rgb(58, 150, 255);
+        }
+
+        footer{
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contents">
+        <header>
+    
+        </header>
+    
+        <div class="mainLogo">
+            <img src="image/logo.png">
+        </div>
+    
+        <div class="buttons">
+            <button class="shapedButton"> 회원가입 </button>
+            <button class="shapedButton"> 로그인 </button>
+            <button class="shapedButton"> 프로필 </button>
+        </div>
+    
+        <nav>
+            <div class="navCard">
+                <h2>워들 게임하기→</h2>
+                <p> 5글자의 영어 단어를 최대한 적은 시도로 유추해보세요.</p>
+            </div>
+            <div class="navCard">
+                <h2>워들 최고기록 보기→</h2>
+                <p> 누가 가장 연속으로 오래 틀리지 않고 맞췄을까요? </p>
+            </div>
+            <div class="navCard">
+                <h2>다른 게임 살펴보기→</h2>
+                <p> 준비중입니다. </p>
+            </div>
+        </nav>
+    
+        <section>
+    
+        </section>
+    
+        <footer>
+            <p> Some important messeges go here.</p>
+        </footer>
+    </div>
+</body>
+</html>
