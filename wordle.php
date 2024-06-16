@@ -57,8 +57,6 @@ session_start();
         function CheckAnswer(){
             count++;
             let input = document.querySelectorAll(".row .active");
-            //document.getElementById("debug").innerHTML = input[0].value; 
-            
 
             const template = `
             <div class="row">
@@ -92,12 +90,6 @@ session_start();
             else{
                 document.querySelector(".gameBoard").insertAdjacentHTML("beforeend", template);
             }
-
-
-
-
-
-
         }
         
         

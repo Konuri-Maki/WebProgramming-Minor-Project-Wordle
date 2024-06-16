@@ -61,7 +61,6 @@ $result = mysqli_query($db, $query) or die(mysqli_error($db));
                 }
             });
         }
-
     </script>
 </head>
 <body>
