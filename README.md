@@ -23,7 +23,7 @@ Guess the given word within the fewest attempts.
             <input class="tile active">
         </div>
     `
-    ```
+```
 will get input from blanks.
 template will be used to create blanks if you failed to guess the word. 
 
